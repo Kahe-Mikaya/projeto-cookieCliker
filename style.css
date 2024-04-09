@@ -17,6 +17,7 @@ html {
   height: 100%;
   background-color: #7d1717;
   justify-content: start;
+  align-items: center;
   background-image: url('https://orteil.dashnet.org/cookieclicker/img/bgBlue.jpg');
 }
 .cookie-text{
@@ -26,6 +27,32 @@ html {
   justify-content: center;
   align-items: center;
 }
+#cookie{
+  
+  width: 40vh;
+  height: 40vh;
+  background-color: rgba(0, 0, 0,0.1);
+  background-image: url('https://orteil.dashnet.org/cookieclicker/img/icon.png');
+
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  
+}
+
+#cookie:hover, #cookie:active {
+  transform: scale(1.1); /* Aumenta o tamanho do botão em 20%*/
+  transition: 0.3s;
+}
+#cookie:active {
+  transform: scale(0.9);
+  transition: 0.1s;
+}
+
+
 
 .titulo{
   text-align: center;
@@ -43,8 +70,6 @@ html {
   text-align: center;
   
 }
-
-
 
 
 .contruções{
