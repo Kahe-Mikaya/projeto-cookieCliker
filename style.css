@@ -1,6 +1,7 @@
-html {
+html,body {
   height: 100%;
   width: 100%;
+  margin: 0;
 }
 .conteiner{
   display: flex;
@@ -49,6 +50,7 @@ html {
 #cookie:active {
   transform: scale(0.9);
   transition: 0.1s;
+  position: relative;
 }
 
 
@@ -66,10 +68,8 @@ html {
   background-color: rgba(0, 0, 0, 0.5);
   width: 70%;
   border-radius: 10px;
-  text-align: center;
-  
+  text-align: center;  
 }
-
 
 .contruções{
   display: flex;
@@ -79,6 +79,10 @@ html {
   background-color: #826b17;
 }
 
+
+
+
+/*********** Entidades (ou o menu da loja ) ***********/
 .entidades{
   display: flex;
   flex-direction: column;
@@ -86,4 +90,33 @@ html {
   height: 100%;
   background-color: #17b8b8;
 }
+#background-loja{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  width: 100%;
+  height: 6%;
+  background-image: url('https://orteil.dashnet.org/cookieclicker/img/bgBlue.jpg');
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+#loja{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
 
+  background-size: cover;
+  position: absolute;
+}
+
+#background-loja:before { /* isso serve para escurecer a imagem do background
+  ele cria um pseudo elemento por cima escurecido ;*/
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
