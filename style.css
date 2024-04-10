@@ -9,6 +9,8 @@ html,body {
   width: 100vw;
   height: 100vh;
 }
+
+
 /* CSS Cookies */
 .cookie-conteiner{
   display: flex;
@@ -18,7 +20,7 @@ html,body {
   background-color: #7d1717;
   justify-content: start;
   align-items: center;
-  background-image: url('https://orteil.dashnet.org/cookieclicker/img/bgBlue.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.003), rgba(0, 0, 0, 0.8)),url('https://orteil.dashnet.org/cookieclicker/img/bgBlue.jpg');
 }
 .cookie-text{
   display: flex;
@@ -60,10 +62,12 @@ html,body {
   margin: 0;
   width: 100%;
   height: 100%;
+  color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 #nomeConfei{
+  color: white;
   margin-top: 10%;
   background-color: rgba(0, 0, 0, 0.5);
   width: 70%;
@@ -71,12 +75,15 @@ html,body {
   text-align: center;  
 }
 
+/********* Contruções *********/
+
+
 .contruções{
   display: flex;
   flex-direction: column;
   width: 50%;
   height: 100%;
-  background-color: #826b17;
+  background-image: url('https://orteil.dashnet.org/cookieclicker/img/bgBlue.jpg');
 }
 
 
@@ -101,6 +108,9 @@ html,body {
   align-items: center;
   justify-content: center;
 }
+
+
+
 #loja{
   margin: 0;
   width: 100%;
@@ -119,4 +129,46 @@ html,body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.p-melhorias{
+  
+  background-image: url('https://orteil.dashnet.org/cookieclicker/img/panelHorizontal.png');
+  height:1.8%;
+  width: 100%;
+  margin: 0;
+  text-align: start;
+  font-size: 13px;
+  color: white;
+  
+}
+
+.melhorias{
+  display: flex;
+  width: 100%;
+  height: 8%;
+  background-image: url('https://orteil.dashnet.org/cookieclicker/img/bgBlue.jpg');
+}
+
+.barra{
+  width: 1%;
+  height: 100%;
+  background-image:     url('https://orteil.dashnet.org/cookieclicker/img/panelVertical.png');
+  background-size: cover;
+}
+
+.menu-personagens{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.003), rgba(0, 0, 0, 0.8)),url('https://orteil.dashnet.org/cookieclicker/img/bgBlue.jpg');
+}
+
+.personagens{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  height: 12%;
+  background: #8e8080
 }

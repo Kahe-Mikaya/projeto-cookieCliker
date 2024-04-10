@@ -4,6 +4,8 @@ let cookiesPorClick = 1;
 let cookiesPorSegundo = 0;
 let cookie = document.querySelector("#cookie");
 
+let cursor = 
+
 
 let quantidade = document.querySelector("#quantidade");
 let elementoRotativo = document.querySelector(".rotacoes");
