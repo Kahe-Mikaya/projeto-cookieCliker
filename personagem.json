@@ -1,0 +1,8 @@
+{
+  "personagens": [
+    {"nome": "cursor", "cps": 0.1, "quantidade": 0, "preco": 1, "imagem": "curso.png"},
+    {"nome": "vovo", "cps": 1, "quantidade": 0, "preco": 1, "imagem": "vovo.png"},
+    {"nome": "fazenda", "cps": 4, "quantidade": 0, "preco": 1, "imagem": ""},
+    {"nome": "mina", "cps": 47, "quantidade": 0, "preco": 1, "imagem": ""}
+  ]
+}
