@@ -166,18 +166,23 @@ html,body {
 }
 
 .personagens{
+  margin: 0;
   display:flex;
   flex-direction: row;
   width: 100%;
   height: 12%;
-  background: #8e8080
+  background: #8e8080;
+  border: 3px solid #000000;
 }
 .personagem_imagem{
+  display: flex;
+  justify-content: start;
   margin: 0;
-  width: 25%;
+  width: 23%;
   height: 100%;
   background-image: url('curso.png');
   background-size: cover;
+  
 }
 .titulo-personagem{
   display: flex;

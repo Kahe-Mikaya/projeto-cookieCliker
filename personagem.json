@@ -1,8 +1,8 @@
 {
   "personagens": [
-    {"nome": "cursor", "cps": 0.1, "quantidade": 0, "preco": 1, "imagem": "curso.png"},
-    {"nome": "vovo", "cps": 1, "quantidade": 0, "preco": 1, "imagem": "vovo.png"},
-    {"nome": "fazenda", "cps": 4, "quantidade": 0, "preco": 1, "imagem": ""},
-    {"nome": "mina", "cps": 47, "quantidade": 0, "preco": 1, "imagem": ""}
+    {"nome": "cursor", "cps": 0.1, "quantidade": 0, "preco": 15, "imagem": "curso.png"},
+    {"nome": "vovo", "cps": 1, "quantidade": 0, "preco": 100, "imagem": "vovo.png"},
+    {"nome": "fazenda", "cps": 4, "quantidade": 0, "preco": 1100, "imagem": "fazenda.png"},
+    {"nome": "mina", "cps": 47, "quantidade": 0, "preco": 12000, "imagem": "mina.png"}
   ]
 }
